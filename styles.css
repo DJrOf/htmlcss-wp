@@ -1,0 +1,134 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(252, 252, 252);
+    margin: 50px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.table {
+	display: table;   
+	margin: 0 auto;
+    
+}
+
+ul#horizontal-list {
+	min-width: auto;
+	list-style: none;
+	padding-top: 10px;
+	}
+
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.seca {
+    height: 450px;
+    margin: 50px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    border-radius: 18px;
+    color: rgb(194, 194, 194);
+}
+
+.texta {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    
+}
+
+.secb {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+}
+
+nav {
+    height: 80px;
+    color: rgb(194, 194, 194);
+}
+
+h1.lead {
+    font-size: 40px;
+    margin: 0;
+}
+
+h2.sub-lead {
+    margin: 0;
+}
+
+.card-left {
+    background-color: white;
+    width: calc(100% / 4 - 10px); 
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    margin: 3px;
+    border-radius: 18px;
+}
+
+.card-imagea{
+    background-image: url(img/img-1.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: white;
+}
+
+.card-center {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% / 2 - 10px); 
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    margin: 3px;
+}
+
+.card-imageb {
+    background-image: url(img/banner-2.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.card-right {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% / 4 - 10px);  
+    height: 300px;
+    margin-top: 10px;
+    margin: 3px;
+    right: 0;
+    
+}
+
+.card-imagec {
+    background-image: url(img/img-3.jpg);
+    height: 50%;
+    width: 100%;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+}
