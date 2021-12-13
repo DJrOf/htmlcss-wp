@@ -32,11 +32,12 @@ ul#horizontal-list {
     margin: 50px;
     background-image: url(img/banner.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: auto;
     border-radius: 18px;
-    color: rgb(194, 194, 194);
+    color: white;
+    background-color: #FEEBE4;
 }
 
 .texta {
@@ -47,7 +48,7 @@ ul#horizontal-list {
 }
 
 .secb {
-    height: 400px;
+    height: 30vh;
     background-color: rgb(255, 255, 255);
     margin: 50px;
 }
