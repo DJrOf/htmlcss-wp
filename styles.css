@@ -53,6 +53,12 @@ ul#horizontal-list {
     margin: 50px;
 }
 
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 nav {
     height: 80px;
     color: rgb(194, 194, 194);
@@ -70,7 +76,7 @@ h2.sub-lead {
 .card-left {
     background-color: white;
     width: calc(100% / 4 - 10px); 
-    height: 300px;
+    
     margin-top: 10px;
     float: left;
     margin: 3px;
@@ -79,7 +85,7 @@ h2.sub-lead {
 
 .card-imagea{
     background-image: url(img/img-1.jpg);
-    height: 50%;
+    height: 20vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -90,7 +96,7 @@ h2.sub-lead {
 .card-center {
     background-color: rgb(255, 255, 255);
     width: calc(100% / 2 - 10px); 
-    height: 300px;
+    
     margin-top: 10px;
     float: left;
     margin: 3px;
@@ -98,7 +104,7 @@ h2.sub-lead {
 
 .card-imageb {
     background-image: url(img/banner-2.jpg);
-    height: 50%;
+    height: 20vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -109,16 +115,16 @@ h2.sub-lead {
 .card-right {
     background-color: rgb(255, 255, 255);
     width: calc(100% / 4 - 10px);  
-    height: 300px;
+    
     margin-top: 10px;
     margin: 3px;
     right: 0;
-    
+    float: left;
 }
 
 .card-imagec {
     background-image: url(img/img-3.jpg);
-    height: 50%;
+    height: 20vh;
     width: 100%;
     
     background-size: contain;
